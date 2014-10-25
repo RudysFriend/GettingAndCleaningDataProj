@@ -1,3 +1,5 @@
-This file describes details about the data that was processed.
+The details for the input  data is described by the *.txt files found in the "./data/UCI HAR Dataset" directory. These are orginal descriptions and are a bit difficult to tie back to the raw data. For the purposes of this project you only need to understand the six files found under the "./data/UCI HAR Dataset/train" and "./data/UCI HAR Dataset/test" directories.
 
-You need to provide information about the creation data and leave that in the repository too.
+The data found in the "train" and "test" directories were part of an original single set of data that was split apart at some point in time.
+
+Each set of three files found in the "test" and "train" directories have the same number of rows and each row coincides with the rows in the other files found in that same directory. Once all three files in each directory are merged by columns the two resulting datasets can be mreged to form one dataset on which the desired work will be performed.
